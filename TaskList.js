@@ -71,16 +71,14 @@ class TaskList extends React.Component {
               key = {this.props.todos}
               renderRow = {this.renderRow.bind(this)}
             />
-            <LinearGradient>
-               <TouchableHighlight
-                 onPress={this.props.onAddStarted}
-                 style={styles.button}
-               >
-                  <Text style={styles.buttonText}>
-                     Add one
-                  </Text>
-               </TouchableHighlight>
-            </LinearGradient>
+            <TouchableHighlight
+              onPress={this.props.onAddStarted}
+              style={styles.button}
+            >
+               <Text style={styles.buttonText}>
+                  Add one
+               </Text>
+            </TouchableHighlight>
          </View>
       );
    }

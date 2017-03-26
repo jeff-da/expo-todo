@@ -1,6 +1,6 @@
 {
-  "name": "learn-todo",
-  "description": "An empty new project",
+  "name": "Notey",
+  "description": "Full functional note taking app.",
   "slug": "learn-todo",
   "privacy": "public",
   "sdkVersion": "15.0.0",

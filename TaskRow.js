@@ -41,7 +41,10 @@ class TaskRow extends React.Component {
             <Text style={styles.label}>
                {this.props.todo.task}
             </Text>
-            <TouchableHighlight onPress={this.onDonePressed.bind(this)} style={styles.doneButton}>
+            <TouchableHighlight
+              onPress={this.onDonePressed.bind(this)}
+              style={styles.doneButton}
+            >
                <Text>Done</Text>
             </TouchableHighlight>
          </View>
